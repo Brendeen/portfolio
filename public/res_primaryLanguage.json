@@ -11,42 +11,22 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Battle Dice",
+        "startDate": "2022",
+        "description": "Battle Dice was my biggest project yet, made with 4 other devs for my 201 final project. The concept of Battle Dice is a simple dice rolling game, where the user puts in some data like their name and blood type, and plays against a bot to see who gets a higher roll. The user can also specify what dice they want to play with, and view their old role data through the use of local storage. Battle Dice is taking over!!!",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/BattleDice/BD1.PNG",
+          "images/portfolio/BattleDice/BD2.PNG"
         ],
-        "url": "",
+        "url": "https://battle-dice.github.io/battle-dice/index.html",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,26 +35,50 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Gallery-Of-Horns",
+        "startDate": "2023",
+        "description": "Gallery-of-horns was my first React based website. Using JS and BootStrap, this app is a collection of ccards that have information about horned beasts. The user can favorite beasts they like the most and view bigger images of the beasts, as well as filter through beasts with certain amounts of horns.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/goh/GOH1.png",
+          "images/portfolio/goh/GOH2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://horned-beast-301n29.netlify.app",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bootstrap-plain",
+            "name": "React BootStrap"
+          }
+        ]
+      },
+      {
+        "title": "Salmon-Cookies",
+        "startDate": "2022",
+        "description": "Salmon Cookies was a big project in my 201 course, going over the use of DOM manipulation. This was a fake site selling the ever popular salmon cookie. The main feature of salmon cookies was a seperate page with sales data, and the user could use the DOM to make new locations with average sales.",
+        "images": [
+          "images/portfolio/SalmonCookies/SC1.png",
+          "images/portfolio/SalmonCookies/SC2.png"
+        ],
+        "url": "https://brendeen.github.io/cookie-stand/index.html",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
