@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "My name is Brenden Moore",
+      "description_header": "Yo!",
+      "description": "My name is Brenden Moore, a recent graduate of Code Fellows bootcamp. What sets me apart from other devs is my creativity. Coming up with ideas and work arounds are key to keeping a steady work flow during a project, as well as coming up with and incorperating ideas to better your users experience and interactability. Afterall, every project starts out as an idea, and every idea starts starts with creativity.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
