@@ -34,11 +34,12 @@ header {
 	height: 520px;
 	min-height: 450px;
 	width: 100%;
+	color: #000000;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-image: url(../public/images/backGround.avif);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -76,16 +77,17 @@ header .nav {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: black;
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
+	border: solid white 5px;
 }
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #6286e1;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -101,11 +103,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #6286e1;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #6286e1;
 	height: 25px;
 }
 
@@ -119,7 +121,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: rgb(26, 105, 154);
 	overflow: hidden;
 }
 
@@ -230,7 +232,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #6286e1;
 }
 
 .experience-icon {
@@ -244,7 +246,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #6286e1 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -255,7 +257,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #6286e1 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -352,7 +354,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: rgb(26, 105, 154);
 	padding-bottom: 5%;
 }
 
@@ -389,6 +391,9 @@ header h1 {
 
 #skills {
 	background: #1F1F1F;
+	text-shadow: 8px 8px 10px #0000008c;
+  background-color: #343a40;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
